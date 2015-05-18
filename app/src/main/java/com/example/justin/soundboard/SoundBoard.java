@@ -412,7 +412,7 @@ public class SoundBoard extends ActionBarActivity implements
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent =  new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-//
+
                         //fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);
                         intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
                         startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
