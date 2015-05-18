@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/soundBoard"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+
+        tools:context=".soundboard"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn1"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn2"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn3"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn4"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn5"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn6"/>
+        <!--<ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn7"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn8"/>
+        <ImageButton android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn9"/>-->
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title PlaceHolder"
+        android:id="@+id/titleView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal|top" />
+
+
+</FrameLayout>
